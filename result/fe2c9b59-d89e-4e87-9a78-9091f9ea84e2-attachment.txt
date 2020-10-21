@@ -1,0 +1,4 @@
+类前：TestDemo setup_class
+方法前：TestDemo setup
+test demo1
+方法后：TestDemo teardown

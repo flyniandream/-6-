@@ -1,0 +1,5 @@
+方法前：TestDemo setup
+test demo2
+方法后：TestDemo teardown
+类后：TestDemo teardown_class
+模块资源销毁：teardown module
