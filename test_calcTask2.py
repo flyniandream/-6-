@@ -8,7 +8,7 @@ from pythoncode.calculator import Calculator
 #1-2)-1:解析加法的测试数据文件
 def get_datas():
     with open("./datas/calc.yaml", encoding='utf-8') as f:
-        datas = yaml.safe_load(f)
+        datas = yaml.safe_load(f)#只能获取一次
     add_datas = datas['add']['datas']
     add_ids = datas['add']['ids']
 
